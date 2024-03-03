@@ -35,3 +35,14 @@
 For custom component: ng g c <component-name>
 Full form component: ng generate component <component-name>
 ```
+
+## Understanding Databinding
+
+- TypeScript code (Business Logic)
+- Output Data
+  - String interpolation `({{daa}})`
+  - Property Binding `([property]="data")`
+- Template (HTML)
+- React to (User) Events
+  - Event Binding `((event)="expression")`
+- Combining of Both: Two-way-Binding ([(ngModel)]="data")
