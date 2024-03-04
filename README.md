@@ -35,3 +35,21 @@
 For custom component: ng g c <component-name>
 Full form component: ng generate component <component-name>
 ```
+
+## Understanding Databinding
+
+- TypeScript code (Business Logic)
+- Output Data
+  - String interpolation `({{daa}})`
+  - Property Binding `([property]="data")`
+- Template (HTML)
+- React to (User) Events
+  - Event Binding `((event)="expression")`
+- Combining of Both: Two-way-Binding ([(ngModel)]="data")
+
+## What are Directives?
+
+- Directives are instructions in the DOM.
+  `<p appTurnGreen>Receives a green background!</p>`
+
+- Unlike structural directives, attributes don't add or remove elements. They only change the elements they are placed on.
