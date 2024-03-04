@@ -53,3 +53,17 @@ Full form component: ng generate component <component-name>
   `<p appTurnGreen>Receives a green background!</p>`
 
 - Unlike structural directives, attributes don't add or remove elements. They only change the elements they are placed on.
+
+## Course project
+
+- Root Component
+  - Header (component)
+  - Shopping List (component)
+    - List of elements in shopping list
+    - Shopping list edit
+    - Ingredient (Model)
+  - Recipe Book (component)
+    - Recipe List (component)
+    - Recipe Item (component)
+    - Recipe Details (component)
+    - Recipe (Model )
